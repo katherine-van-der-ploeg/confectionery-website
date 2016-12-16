@@ -241,29 +241,22 @@
       </div>
     </section>
 
-    <section>
-      <div>
+    <section class="pad-t-2 bad-b-2">
+      <div class="max-length">
         <div>
-          <h2>Order Now!</h2>
-
-          <form>
-            <div>
-              <label for="name">
-                <span>Your name</span>
-              </label>
-              <input id="name">
+          <h2 class="push yotta">Order Now!</h2>
+          <form class="push-0" method="POST" action="https://formspree.io/kat.van.d.p@gmail.com">
+            <div class="push">
+              <label for="name">Name</label>
+              <input id="name" name="name">
             </div>
-            <div>
-              <label for="type">
-                <span>E-mail address</span>
-              </label>
-              <input type="text" id="type">
+            <div class="push">
+              <label for="email">Your E-Mail</label>
+              <input id="email" type="email" placeholder="ex. soccer_cutiexoxo998@genericemail.com" name="email">
             </div>
-            <div>
-              <label for="candy">
-                <span>Type of Candy (Order Code)</span>
-              </label>
-              <select id="candy-code">
+            <div class="push">
+              <label for="candy">Candy Order Code</label>
+              <select id="candy-code" name="Candy">
                 <option>0001</option>
                 <option>0002</option>
                 <option>0003</option>
@@ -288,14 +281,12 @@
                 <option>0022</option>
               </select>
             </div>
-            <div>
-              <label for="amount">
-                <span>How much candy do you want?</span>
-              </label>
-              <input id="amount">
+            <div class="push">
+              <label for="amount">How Much Candy Do You Want?</label>
+              <textarea id="amount" name="amount">Amount</textarea>
             </div>
             <div>
-              <button type="submit">Send</button>
+              <button class="btn" type="submit">Send</button>
             </div>
           </form>
         </div>
