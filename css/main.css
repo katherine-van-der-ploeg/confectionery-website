@@ -13,6 +13,11 @@ h2 {
   color: #ffea89;
 }
 
+h3 {
+  font-family: Pacifico, cursive;
+  color: #ffea89;
+}
+
 .img-flex {
   display: block;
   width: 100%;
@@ -41,4 +46,9 @@ nav a {
 
 nav a:hover {
   color: #ffe254;
+}
+
+.table-label {
+  font-family: Pacifico, cursive;
+  color: #ffea89;
 }
