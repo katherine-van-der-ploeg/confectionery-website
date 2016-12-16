@@ -9,3 +9,23 @@ h1 {
 h2 {
   font-family: "Pacifico", cursive;
 }
+
+.banner {
+  position: relative;
+}
+
+.banner-content {
+  color: #fff;
+  font-family: "Pacifico", cursive;
+}
+
+nav a {
+  font-family: "Pacifico", cursive;
+  text-decoration: none;
+  color: black;
+  padding: .3em;
+}
+
+nav a:hover {
+  color: blue;
+}
