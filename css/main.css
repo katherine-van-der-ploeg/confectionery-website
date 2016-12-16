@@ -1,13 +1,16 @@
 html {
-  font-family: "Cabin", sans-serif;
+  font-family: Cabin, sans-serif;
+  background-color: #a3e6d2;
 }
 
 h1 {
-  font-family: "Pacifico", cursive;
+  font-family: Pacifico, cursive;
+  color: #ffea89;
 }
 
 h2 {
-  font-family: "Pacifico", cursive;
+  font-family: Pacifico, cursive;
+  color: #ffea89;
 }
 
 .img-flex {
@@ -26,15 +29,16 @@ h2 {
   bottom: 0;
   left: 0;
   color: #fff;
+  font-family: Pacifico, cursive;
 }
 
 nav a {
-  font-family: "Pacifico", cursive;
+  font-family: Pacifico, cursive;
   text-decoration: none;
-  color: black;
+  color: #ffea89;
   padding: .3em;
 }
 
 nav a:hover {
-  color: blue;
+  color: #ffe254;
 }
